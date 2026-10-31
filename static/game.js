@@ -81,7 +81,7 @@ function checkAnswer(selectedNumber, button) {
   answerLocked = true;
   button.classList.add("correct");
   choices.querySelectorAll(".choice").forEach(item => item.disabled = true);
-  feedback.textContent = "آفرین! ❤️ جواب درست بود.";
+  feedback.textContent = "آفلیننن بووووبوو کوشووولوی من!!";
   feedback.className = "feedback success";
   progressBar.style.width = `${((questionNumber + 1) / config.questions.length) * 100}%`;
 
